@@ -1,0 +1,16 @@
+{
+  "name": "tips",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build ./src/index.html",
+    "deploy": "gh-pages",
+    "build-and-deploy": "npm run build && npm run deploy"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^6.1.1",
+    "parcel": "^2.11.0"
+  }
+}
